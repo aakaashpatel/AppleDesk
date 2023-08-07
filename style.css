@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+#page > video{
+    position: absolute;
+    object-fit: cover;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    transform: translate(-50%);
+}
+#page > nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    left: 50%;
+    width: 50vw;
+    top: 0%;
+    height: 6vh;
+    /* background-color: white; */
+    color: white;
+    transform: translateX(-50%);
+}
+#page > nav > h3{
+    font-size: 24px;
+}
+#page > nav > button{
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 3px 10px;
+}
+#page-bottom{
+    height: 20%;
+    /* width: 25%; */
+    /* background-color: green; */
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-bottom > h3{
+    color: rgb(225 225 221);
+    margin-top: -121px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#page-bottom > img{
+    width: 50vh;
+    /* height: 10vh; */
+    position: absolute;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    color: rgb(233, 227, 227);
+    /* background-color: aliceblue; */
+    
+}
+#page1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: white ;
+}
