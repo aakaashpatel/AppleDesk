@@ -60,12 +60,12 @@ gsap.to('#page',{
 })
 
 
-gsap.to('#page=bottom',{
+gsap.to('#page-bottom',{
   scrollTrigger:{
     trigger:`#page-bottom`,
     start:`5% top`,
     end:`bottom top`,
     scroller:`#main`,
   },
-    display:none
+    opacity:0
 })
