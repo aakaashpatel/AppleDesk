@@ -90,3 +90,81 @@ html,body{
     width: 100vw;
     object-fit: cover;
 }
+#page1 > h1{
+    position: absolute;
+    font-size: 3.4vw;
+    /* font-weight: 500; */
+    color: rgb(243, 239, 239);
+    /* background-color: green; */
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+#page2{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: white ;
+}
+#page2 > video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+#page2 > h1{
+    position: absolute;
+    font-size: 2vw;
+    /* font-weight: 500; */
+    color: rgb(243, 239, 239);
+    /* background-color: green; */
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+#page3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: white ;
+}
+#page3 > video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+#page3 > h1{
+    position: absolute;
+    font-size: 2vw;
+    /* font-weight: 500; */
+    color: rgb(243, 239, 239);
+    /* background-color: green; */
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+#page4{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: white ;
+}
+#page4 > video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+#page4 > h1{
+    position: absolute;
+    font-size: 2vw;
+    /* font-weight: 500; */
+    color: rgb(243, 239, 239);
+    /* background-color: green; */
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}

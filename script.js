@@ -69,3 +69,67 @@ gsap.to('#page-bottom',{
   },
     opacity:0
 })
+
+
+var time = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page1",
+    start: 'top top',
+    scrub:1,
+    scroller: '#main',
+    marker: true, 
+    pin: true, 
+  }
+})
+
+time.to('#page1>h1',{
+  top: '-65%'  
+})
+
+
+var time2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page2",
+    start: 'top top',
+    scrub:1,
+    scroller: '#main',
+    marker: true, 
+    pin: true, 
+  }
+})
+
+time2.to('#page2>h1',{
+  top: '-45%'  
+})
+
+var time3 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page3",
+    start: 'top top',
+    scrub:1,
+    scroller: '#main',
+    marker: true, 
+    pin: true, 
+  }
+})
+
+time3.to('#page3>h1',{
+  top: '-45%'  
+})
+
+
+var time4 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page4",
+    start: 'top top',
+    scrub:1,
+    scroller: '#main',
+    marker: true, 
+    pin: true, 
+  }
+})
+
+time3.to('#page4>h1',{
+  top: '-45%'  
+})
+
