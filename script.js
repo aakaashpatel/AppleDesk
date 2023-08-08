@@ -133,3 +133,18 @@ time4.to('#page4>h1',{
   top: '-45%'  
 })
 
+var time5 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page5",
+    start: 'top top',
+    scrub:1,
+    scroller: '#main',
+    marker: true, 
+    pin: true, 
+  }
+})
+
+time5.to('#page5>h1',{
+  top: '-45%'  
+})
+
