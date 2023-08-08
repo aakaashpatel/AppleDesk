@@ -129,7 +129,7 @@ var time4 = gsap.timeline({
   }
 })
 
-time3.to('#page4>h1',{
+time4.to('#page4>h1',{
   top: '-45%'  
 })
 
